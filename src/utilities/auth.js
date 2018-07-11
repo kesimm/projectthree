@@ -3,7 +3,7 @@ import { apiUrl } from '../config';
 function initFb(dispatch) {
 	window.fbAsyncInit = function() {
 		window.FB.init({
-			appId: '162637991074423',
+			appId: '524799071271828',
 			cookie: true,
 			xfbml: true,
 			version: 'v3.0'
