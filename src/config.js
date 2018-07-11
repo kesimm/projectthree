@@ -1,4 +1,4 @@
-const apiUrl = 'https://api.mlab.com/api/1/databases/projectthree?apiKey=LM9HG95UnI4YiBhbl9Iw9mD14r_IJvud'
+const apiUrl = 'mongodb://heroku_pbbdj41v:Quince27@ds151180.mlab.com:51180/heroku_pbbdj41v'
 const siteUrl = 'https://shrouded-garden-69575.herokuapp.com/'
 
 export { apiUrl, siteUrl };
