@@ -1,0 +1,119 @@
+body {
+	font-family: 'Open Sans', serif;
+}
+.hero.is-success {
+	background: #F2F6FA;
+	color: #4a4a4a;
+}
+
+.hero-body {
+	padding: 2rem 1.5rem;
+}
+
+.score {
+	justify-content: center;
+}
+
+p.subtitle {
+  padding-top: 1rem;
+}
+
+p.footer-contact {
+	margin-top: 1rem;
+}
+
+p.title {
+	margin-top: 1rem;
+}
+
+.game-table {
+	border-radius: 6px;
+	box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+	margin: auto;
+}
+
+.button.back {
+	margin-top: 1rem;
+}
+
+.home-link {
+	margin-top: 1rem;
+}
+
+.node {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: left;
+}
+
+.core {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	margin: auto;
+	z-index: 5;
+}
+
+.core.selected {
+	width: 25px;
+	height: 25px;
+	left: -12px;
+	top: -12px;
+	background-color: #444;
+	border-radius: 50%;
+}
+
+.outer-core {
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: -40%;
+	left: -40%;
+	z-index: 7;
+}
+
+.edge {
+	position: absolute;
+	z-index: 0;
+}
+
+.right {
+	width: 50px;
+	height: 5px;
+	top: -2px;
+}
+
+.down {
+	width: 5px;
+	height: 50px;
+	left: -2px;
+}
+
+.edge.highlight {
+	background-color: #3273dc;
+}
+
+.owner {
+	z-index: 3;
+	font-size: 2em;
+	line-height: 50px;
+	text-align: center;
+}
+
+.core, .edge {
+	background-color: #494949;
+}
+
+
+.game-footer {
+	width: 100%;
+	float: left;
+}
+
+input {
+	text-align: center;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "dot-connect-server",
+    "version": "1.0.0",
+    "description": "server for dot-connect",
+    "main": "index.js",
+    "author": "sjsakib",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "mongoose": "^5.1.1",
+        "socket.io": "^2.1.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.4"
+    }
+}
