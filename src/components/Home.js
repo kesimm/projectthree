@@ -11,9 +11,9 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <img src={logo} alt="DOT CONNECT" />
+                <h2>Dots and Squares </h2>
                 <p className="subtitle has-text-grey">
-                    Play your favorite childhood game online with friends
+                   click below to get started
                 </p>
                  <div className="subtitle has-text-grey">
                     Hello, {this.props.user.name}
